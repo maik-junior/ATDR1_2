@@ -14,13 +14,6 @@ st.set_page_config(
     initial_sidebar_state='expanded'
 )
 
-import os
-import streamlit as st
-
-# Obtendo o caminho absoluto
-image_path = os.path.join(os.getcwd(), 'data/image/image1.jpeg')
-st.sidebar.image(image_path, width=280)
-
 # st.sidebar.image('data/image/image1.jpeg', width=280)
 
 #==> Carregando em cache
