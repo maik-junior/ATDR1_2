@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 
-st.sidebar.image('data/image/_8ce9b1e1-dc10-4300-8376-862f1802f309.jpeg', width=280)
+st.sidebar.image('data/image/image1.jpeg', width=280)
 
 #==> Carregando em cache
 @st.cache_data
